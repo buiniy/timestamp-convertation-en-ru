@@ -10,5 +10,5 @@ $new = new TimeCorrector();
 //$new->getConvertFormat(35061, 1); // 9 часов 44 минуты, 21 секунда назад
 //$new->getConvertFormat(0); // Сейчас
 
-$new->getConvertFormat(35061, 1);
+echo $new->getConvertFormat(35061, 1);
 ?>
